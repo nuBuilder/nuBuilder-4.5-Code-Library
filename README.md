@@ -3,7 +3,9 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (74)
+## Code snippets (75)
+
+* 2021-06-22: <b>Edit Screen:</b> Save the User Id to the Database [→ view](codelib/edit_save_user_id)
 
 * 2021-05-05: <b>Object:</b> Show a unit next to an Input [→ view](codelib/object_show_unit)
  
