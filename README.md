@@ -3,7 +3,7 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (75)
+## Code snippets (74)
 
 * 2021-06-22: <b>Edit Screen:</b> Save the User Id to the Database [→ view](codelib/edit_save_user_id)
 
@@ -28,8 +28,6 @@
 * 2020-08-30: <b>Edit Screen:</b> Prevent a user from editing saved records [→ view](codelib/edit_prevent_editing_saved_records)
 
 * 2020-08-25: <b>UX:</b> Enhance the appearance of a Message Box [→ view](codelib/ux_enhanced_message_box)
-
-* 2020-08-25: <b>UX:</b> Transform the Search Field into a Type Search [→ view](codelib/ux_improve_search_field)
 
 * 2020-08-22: <b>JavaScript:</b> Sanitize a filename [→ view](codelib/javascript_sanitize_filename)
 
