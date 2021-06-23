@@ -3,7 +3,9 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (74)
+## Code snippets (75)
+
+* 2021-06-22: <b>Browse Screen:</b> Display rows only after searching [→ view](codelib/browse_display_blank_initially)
 
 * 2021-06-22: <b>Edit Screen:</b> Save the User Id to the Database [→ view](codelib/edit_save_user_id)
 
