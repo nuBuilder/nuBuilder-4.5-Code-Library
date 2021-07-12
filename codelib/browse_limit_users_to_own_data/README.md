@@ -29,3 +29,16 @@ If you want the globeadmin to view all records, add this WHERE clause.
 WHERE user_id = '#USER_ID#' OR '#GLOBAL_ACCESS#' = '1'
 ```
 
+### 3. Another possibility: Using the [nuLog column](https://wiki.nubuilder.net/nubuilderforte/index.php/Logging_Activity)
+
+As of Files Version: V.4.5-2021.07.12.02, usw this code in the BE (Before Edit) event.
+The prerequisite is that a nuLog column exists. No additional User Id column needs to be created.
+
+```php
+$jd = json_decode($_POST['nuLog']);
+
+if (!empty($jd) && $jd->added->user != '#USER_ID#') {
+  nuDisplayError('Access denied');
+}
+```
+
