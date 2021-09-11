@@ -14,7 +14,7 @@ if (nuFormType() == 'browse') {
 ```
 
 
-In the Browse SQL, add a WHERE clause. Rows are only displayed when length of the search string is at least 2 characters.
+In the Browse SQL, add a WHERE clause. Rows are only displayed when the length of the search string is at least 2 characters.
 
 ```sql
 WHERE LENGTH('#SEARCH_FIELD#') > 2 AND '#SEARCH_FIELD#' NOT LIKE '#%'
