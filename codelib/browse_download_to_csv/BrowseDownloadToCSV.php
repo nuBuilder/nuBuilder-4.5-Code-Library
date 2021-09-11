@@ -1,5 +1,8 @@
-// Use nuBuilder config file for db settings
-include("nuconfig.php");
+// Use nuBuilder's db settings
+global $nuConfigDBHost;
+global $nuConfigDBName;
+global $nuConfigDBUser;
+global $nuConfigDBPassword;
 
 // Set the CSV delimiter
 $delimiter = ';';
