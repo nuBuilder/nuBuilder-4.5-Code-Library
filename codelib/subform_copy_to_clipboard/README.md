@@ -1,16 +1,16 @@
 ### Subform: Copy data to clipboard
 
-The function nuSubformToClipboard() willl copy all data of a subform to the clipboard as tab-separated data (default), so you can easily paste the information into a spreadsheet (e.g. Excel) or elsewhere. 
+The function nuSubformToClipboard() will copy all data of a subform to the clipboard as tab-separated data (default), so you can easily paste the data into a spreadsheet (e.g. Excel) or elsewhere. 
 
 
 ```javascript
 /**
  * Copy the data of a Subform to the Clipboard
  *
- * @param {string}	i				    - Subform Object ID
- * @param {string}	delimiter			- Delimiter for the data. Default: \t  (tabulator)
- * @param {bool}	[includeHeader]		- true to include the header (titles)
- * @param {bool}	[includeId]			- true to include the Id (Primary Key)
+ * @param {string}  i                 - Subform Object ID
+ * @param {string}  delimiter         - Delimiter for the data. Default: \t  (tabulator)
+ * @param {bool}    [includeHeader]   - true to include the header (titles)
+ * @param {bool}    [includeId]       - true to include the Id (Primary Key)
  *
  */
 
