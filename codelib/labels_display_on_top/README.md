@@ -14,12 +14,11 @@ This is especially useful when the caption gets a little longer and it would tak
 
 #### ✪ Example 1: 
 
-Position all labels at the top of their objects:
+Position all labels at top of their objects:
 
 ```javascript
 if (nuFormType() == 'edit') {
-    var f = nuSubformObject("").fields;          // include all objects of your main form.
-    nuLabelOnTop(f, []);
+    nuLabelOnTop();
 }
 ```
 
@@ -70,7 +69,7 @@ if (nuFormType() == 'edit') {
 
 #### ✪ Example 6: 
 
-Position the label of the Object with ID firstname in the subform with ID subfromObjID at the top of its object:
+Position the label of the Object with ID "firstname" in the subform with ID subfromObjID at the top of its object:
 
 ```javascript
 if (nuFormType() == 'edit') {
