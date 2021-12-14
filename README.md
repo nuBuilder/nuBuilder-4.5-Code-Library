@@ -3,7 +3,9 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (75)
+## Code snippets (76)
+
+* 2021-12-14: <b>Object:</b> Transform text as you type [→ view](codelib/object_transform_text)
 
 * 2021-06-22: <b>Browse Screen:</b> Display rows only after searching [→ view](codelib/browse_display_blank_initially)
 
