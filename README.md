@@ -3,7 +3,10 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (77)
+## Code snippets (78)
+
+
+* 2021-12-27: <b>Object:</b> Increase the font size of labels [→ view](codelib/object_increase_label_size)
 
 * 2021-12-27: <b>Object:</b> Set an initial (default) value [→ view](codelib/object_set_default_value)
 
