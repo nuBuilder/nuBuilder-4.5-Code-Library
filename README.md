@@ -6,7 +6,7 @@
 ## Code snippets (77)
 
 * 2021-12-27: <b>Object:</b> Set an initial (default) value [→ view](codelib/object_set_default_value)
-* 
+
 * 2021-12-14: <b>Object:</b> Transform text as you type [→ view](codelib/object_transform_text)
 
 * 2021-06-22: <b>Browse Screen:</b> Display rows only after searching [→ view](codelib/browse_display_blank_initially)
