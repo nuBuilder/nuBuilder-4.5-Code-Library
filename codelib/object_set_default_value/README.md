@@ -1,4 +1,4 @@
-### Object: Set a initial (default) value
+### Object: Set an initial (default) value
 
 This article explains four different ways to set an initial (default) value for an object when a form is loaded.
 
