@@ -3,8 +3,9 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (78)
+## Code snippets (79)
 
+* 2021-12-28: <b>Object:</b> Refresh after a given period of inactivity [→ view](codelib/browse_refresh_interval)
 
 * 2021-12-27: <b>Object:</b> Increase the font size of labels [→ view](codelib/object_increase_label_size)
 
