@@ -3,7 +3,7 @@
 This snippet will show you how to add Dropdowns in Columns of a Browse Screen to filter the corresponding columns.
 
 <p align="left">
-  <img src="screenshots/browse_filter_selects.gif">
+  <img src="screenshots/browse_filter_dropdowns.gif">
 </p>
 
 
