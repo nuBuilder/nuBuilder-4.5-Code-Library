@@ -20,7 +20,8 @@ function refreshBrowse(formId, period) {
         clearInterval(intervalID);
         $(document).off("mousemove.browserefresh keypress.browserefresh");
     } else if (new Date().getTime() - time >= period) {
-        nuGetBreadcrumb()
+        time = new Date().getTime();
+        nuGetBreadcrumb();
     }
 }
 
