@@ -3,7 +3,9 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (79)
+## Code snippets (80)
+
+* 2023-05-27: <b>Edit Screen:</b> Customise Objects of the User Form [→ view](codelib/edit_modify_objects)
 
 * 2021-12-28: <b>Object:</b> Refresh after a given period of inactivity [→ view](codelib/browse_refresh_interval)
 
