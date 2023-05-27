@@ -14,11 +14,14 @@ To prevent this from happening, you can place JavaScript code in the (Setup->) H
 
 This example shows how to turn the Team and Department Text objects into Select object.
 
+<p align="left">
+  <img src="screenshots/edit_modify_objects.png" width="727">
+</p>
+
 ☛  Add this code in the **Header** (❓ [Home ► Setup](/codelib/common/setup_header.gif)). Click Save and log in again.
 
+
 ```javascript
-
-
 // This function will be run after each Edit Form loads.
 function nuLoadEditGlobal(formId, formCode) {
 
