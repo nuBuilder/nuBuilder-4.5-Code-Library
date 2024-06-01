@@ -3,7 +3,7 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (80)
+## Code snippets (79)
 
 * 2023-05-27: <b>Edit Screen:</b> Customise Objects of the User Form [→ view](codelib/edit_modify_objects)
 
@@ -78,8 +78,6 @@
 * 2020-07-18: <b>PHP:</b> How to import a CSV file into a database table [→ view](codelib/php_import_csv_to_table)
 
 * 2020-06-18: <b>Browse Screen:</b> Add Dropdowns to Filter Columns [→ view](codelib/browse_add_filter_dropdowns)
-
-* 2020-06-17: <b>Globeadmin Helper:</b> Add additional Developer Action Buttons [→ view](codelib/globeadmin_dev_buttons)
 
 * 2020-06-15: <b>UX:</b> Position the Save Button within the Form [→ view](codelib/ux_position_the_save_button)
 
