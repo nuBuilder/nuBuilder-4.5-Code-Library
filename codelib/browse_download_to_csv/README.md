@@ -1,20 +1,22 @@
 ### Adding a "Download to CSV" button in a Browse Screen
 
-1. Create a [Procedure](https://wiki.nubuilder.net/nubuilderforte/index.php/Procedures): Tab Builders -> Procedure -> Add
+This guide explains how to add a "Download to CSV" button to a browse screen, enabling users to download data as a CSV file.
+
+1. Create a [Procedure](https://wiki.nubuilder.cloud/nubuilderforte/index.php/Procedures): Procedure -> Add
 
 2. Code: BrowseDownloadToCSV
 
-3. Give it a description. (E.g. Downloads data in a Browse Screen as a csv)
+3. Add a description, such as "Downloads data in a Browse Screen as CSV".
 
-4. Paste the PHP code from the file [BrowseDownloadToCSV.php](BrowseDownloadToCSV.php) to the PHP field.
+4. Copy the PHP code from [BrowseDownloadToCSV.php](BrowseDownloadToCSV.php) and paste it into the PHP field of your new procedure.
 
 <p align="left">
   <img src="screenshots/BrowseDownloadToCSV.png">
 </p>
 
-5. Save
+5. Click Save to store your procedure.
 
-6. Add this JavaScript Code to your form’s *Custom Code*/ Browse field:
+6. In your form’s Custom Code / Browse field, insert the following JavaScript snippet:
 
 ❓ [How to add Custom Code](/codelib/common/form_add_custom_code_javascript.gif)
 
@@ -31,6 +33,7 @@ function browseDownloadToCSV() {
 nuAddActionButton('browseDownloadToCSV', 'Download to CSV', 'browseDownloadToCSV();');
 ```
 
-7. Save
+7. Ensure all changes are saved after adding the JavaScript.
 
-Now you see a new button "Download to CSV" in your Browse Screen!
+Outcome: Now, a "Download to CSV" button will appear on your Browse Screen, allowing users to export data directly in CSV format.
+
