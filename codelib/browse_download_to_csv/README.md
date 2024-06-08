@@ -14,25 +14,21 @@
 
 5. Save
 
-6. Add this JavaScript Code to your form’s *Custom Code* field:
+6. Add this JavaScript Code to your form’s *Custom Code*/ Browse field:
 
 ❓ [How to add Custom Code](/codelib/common/form_add_custom_code_javascript.gif)
 
 ```
-function base64encode(str) {
-	let encode = encodeURIComponent(str).replace(/%([a-f0-9]{2})/gi, (m, $1) => String.fromCharCode(parseInt($1, 16)))
-	return btoa(encode)
-}
-
 function browseDownloadToCSV() {
-	nuSetProperty('browse_sql', base64encode(JSON.stringify(nuCurrentProperties().browse_sql)));
-	nuRunPHP('BrowseDownloadToCSV');
+    const fileDelimiter = ';';
+    const fileName = 'browse_download.csv';
+
+    nuRunPHPWithParams('BrowseDownloadToCSV', 'BrowseDownloadParams', {
+        file_name: fileName, file_delimiter: fileDelimiter, sql: nuCurrentProperties().browse_sql
+    });
 }
 
-
-if(nuFormType() == 'browse'){
-    nuAddActionButton('browseDownloadToCSV', 'Download to CSV', 'browseDownloadToCSV();');
-}
+nuAddActionButton('browseDownloadToCSV', 'Download to CSV', 'browseDownloadToCSV();');
 ```
 
 7. Save
