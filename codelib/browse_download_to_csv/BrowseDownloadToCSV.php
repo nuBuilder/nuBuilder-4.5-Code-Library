@@ -1,4 +1,4 @@
-/ Retrieve parameters from the property
+// Retrieve parameters from the property
 $downloadParams = nuGetProperty('BrowseDownloadParams');
 $params = nuDecode($downloadParams); 
 
